@@ -1,4 +1,4 @@
-btn {
+.btn {
   display: inline-block;
   padding: 10px 32px;
   border-radius: 4px;
@@ -14,4 +14,46 @@ btn {
   color: $white-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.btn-footer {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $white-color;
+  background-color: $accent-color;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 28px;
+  margin-left: 12px;
+}
+
+.btn-close-modal {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: $white-color;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 50%;
+  padding: 9 10;
+  align-items: center;
+}
+
+.btn-submit-modal {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
