@@ -1,0 +1,45 @@
+.ourwork-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white-color;
+}
+
+/* work */
+
+.work-list {
+  display: flex;
+
+  .item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.work-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white-color;
+}
+
+.box2 {
+  position: relative;
+  width: 370px;
+}
+
+.title-absolute {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 70px;
+  align-content: center;
+  justify-content: center;
+  padding: 27px 82px;
+  background: rgba(47, 48, 58, 0.8);
+}

@@ -1174,6 +1174,13 @@ textarea {
   appearance: none;
 }
 
+.check-input:checked + .checkbox-icon {
+  border-color: transparent;
+  background-image: url(../images/icon-check.svg);
+  background-size: contain;
+  background-origin: border-box;
+}
+
 .checkbox-icon {
   display: inline-block;
   width: 16px;
@@ -1181,12 +1188,5 @@ textarea {
   margin-right: 8px;
   border: 2px solid #212121;
   border-radius: 4px;
-}
-
-.check-input:checked + .checkbox-icon {
-  border-color: transparent;
-  background-image: url(../images/icon-check.svg);
-  background-size: contain;
-  background-origin: border-box;
 }
 /*# sourceMappingURL=main.css.map */
