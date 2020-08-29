@@ -486,7 +486,7 @@ body {
   margin-right: auto;
 }
 
-navigation {
+.navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
