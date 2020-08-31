@@ -5,6 +5,7 @@
 }
 
 .menu-nav {
+  @extend %list !optional;
   display: flex;
 
   .item:not(:last-child) {

@@ -3,6 +3,7 @@
 }
 
 .feature-list {
+  @extend %list !optional;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

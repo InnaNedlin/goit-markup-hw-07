@@ -4,6 +4,7 @@
 }
 
 .contact-us {
+  @extend %list !optional;
   display: flex;
   margin-left: auto;
 }

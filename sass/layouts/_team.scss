@@ -3,6 +3,7 @@
 }
 
 .team-menu {
+  @extend %list !optional;
   display: flex;
   flex-wrap: wrap;
 }
