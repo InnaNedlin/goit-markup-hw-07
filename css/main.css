@@ -419,7 +419,7 @@ a {
   border: 1px solid #ececec;
 }
 
-.btn, .btn-hero, .btn-footer {
+.btn-hero, .btn-footer {
   min-width: 200px;
   font-family: inherit;
   font-weight: 700;

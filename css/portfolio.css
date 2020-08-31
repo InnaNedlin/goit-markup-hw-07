@@ -554,7 +554,7 @@ a {
   margin-left: 50px;
 }
 
-.btn, .btn-hero, .btn-footer {
+.btn-hero, .btn-footer {
   min-width: 200px;
   font-family: inherit;
   font-weight: 700;

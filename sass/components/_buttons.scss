@@ -1,4 +1,4 @@
-.btn {
+%btn {
   min-width: 200px;
   font-family: inherit;
   font-weight: 700;
@@ -15,13 +15,13 @@
 }
 
 .btn-hero {
-  @extend .btn;
+  @extend %btn;
   display: inline-block;
   padding: 10px 32px;
 }
 
 .btn-footer {
-  @extend .btn;
+  @extend %btn;
   display: flex;
   align-items: center;
   padding-top: 10px;
