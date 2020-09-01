@@ -341,7 +341,7 @@ template {
   display: none;
 }
 
-.btn-hero, .btn-footer {
+.btn-hero, .btn-footer, .btn-submit-modal {
   min-width: 200px;
   font-family: inherit;
   font-weight: 700;
@@ -471,6 +471,7 @@ a {
 }
 
 .btn-submit-modal {
+  height: 50px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
